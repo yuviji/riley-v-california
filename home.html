@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | Riley v. California</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/lib/jquery.fittext.js"></script>
+</head>
+
+<body>
+    <header>
+        <h2>
+            In Session:
+        </h2>
+        <h1>
+            <em>Riley&nbsp&nbsp</em>v.<em>&nbspCalifornia</em>
+        </h1>
+        <h4>
+            <strong>Yuvraj Lakhotia</strong>
+        </h4>
+    </header>
+    <div id="phone">
+        <div id="top">
+            <div id="first">
+                <div id="selfie"></div>
+            </div>
+            <div id="second">
+                <div id="sensor"></div>
+                <div id="speaker"></div>
+            </div>
+        </div>
+        <div id="screen" class="home">
+            <div id="time"></div>
+            <img id="status" src="assets/img/background/status-light.png">
+            <div class="app">
+                <a href="background.html">
+                    <img class="icon" src="assets/img/icons/keynote.png">
+                </a>
+                <p class="name">Background</p>
+            </div>
+            <div class="app">
+                <a href="constitutionality.html">
+                    <img class="icon" src="assets/img/icons/books.png">
+                </a>
+                <p class="name">Constitutionality</p>
+            </div>
+            <div class="app">
+                <a href="decision.html">
+                    <img class="icon" src="assets/img/icons/pages.png">
+                </a>
+                <p class="name">Decision</p>
+            </div>
+            <div class="app">
+                <a href="analysis.html">
+                    <img class="icon" src="assets/img/icons/reminders.png">
+                </a>
+                <p class="name">Analysis</p>
+            </div>
+            <div class="app">
+                <a href="opinion.html">
+                    <img class="icon" src="assets/img/icons/podcasts.png">
+                </a>
+                <p class="name">Opinion</p>
+            </div>
+            <div class="app">
+                <a href="related.html">
+                    <img class="icon" src="assets/img/icons/files.png">
+                </a>
+                <p class="name">Related Cases</p>
+            </div>
+            <div class="app">
+                <a href="bibliography.html">
+                    <img class="icon" src="assets/img/icons/notes.png">
+                </a>
+                <p class="name">Bibliography</p>
+            </div>
+            <div class="app">
+                <a href="https://www.c-span.org/video/?319123-1/riley-v-california-oral-argument" target="_blank">
+                    <img class="icon" src="assets/img/icons/videos.png">
+                </a>
+                <p class="name">Videos</p>
+            </div>
+            <div class="app">
+                <a href="https://projects.oyez.org/shifting-scales/" target="_blank">
+                    <img class="icon" src="assets/img/icons/safari.png">
+                </a>
+                <p class="name">Safari</p>
+            </div>
+            <div class="app">
+                <a href="https://www.supremecourt.gov/" target="_blank">
+                    <img class="icon" src="assets/img/icons/app-store.png">
+                </a>
+                <p class="name">App Store</p>
+            </div>
+            <div class="app">
+                <a href="https://www.foxnews.com/" target="_blank">
+                    <img class="icon" src="assets/img/icons/news.png">
+                </a>
+                <p class="name">News</p>
+            </div>
+            <div class="app">
+                <a href="index.html">
+                    <img class="icon" src="assets/img/icons/home.png">
+                </a>
+                <p class="name">Restart</p>
+            </div>
+            <div class="quicktouch">
+                <div class="app">
+                    <img class="icon" src="assets/img/icons/phone.png">
+                </div>
+                <div class="app">
+                    <img class="icon" src="assets/img/icons/facetime.png">
+                </div>
+                <div class="app">
+                    <img class="icon" src="assets/img/icons/messages.png">
+                </div>
+                <div class="app">
+                    <img class="icon" src="assets/img/icons/camera.png">
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="button"></div>
+        </div>
+    </div>
+    <style>
+        .modal {
+            display: block;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            position: relative;
+            background-color: var(--cream);
+            margin: auto;
+            padding: 0;
+            border: 1px solid #888;
+            width: 80%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -webkit-animation-name: animatetop;
+            -webkit-animation-duration: 0.4s;
+            animation-name: animatetop;
+            animation-duration: 0.4s
+        }
+
+        @-webkit-keyframes animatetop {
+            from {
+                top: -300px;
+                opacity: 0
+            }
+
+            to {
+                top: 0;
+                opacity: 1
+            }
+        }
+
+        @keyframes animatetop {
+            from {
+                top: -300px;
+                opacity: 0
+            }
+
+            to {
+                top: 0;
+                opacity: 1
+            }
+        }
+
+        .close {
+            color: var(--cream);
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .modal-header {
+            padding: 2px 16px;
+            background-color: var(--gray);
+            color: var(--cream);
+        }
+
+        .modal-body {
+            padding: 10px 16px;
+            font-size: 1.5em;
+            line-height: 1.5em;
+            color: var(--gray);
+            font-family: 'Product Sans';
+        }
+    </style>
+    <div id="intro" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h4 style="font-size:2em;">Navigation</h4>
+            </div>
+            <div class="modal-body">
+                Sequentially visit each application from the home page to learn about <em>Riley</em>&nbsp&nbspv.
+                <em>California</em>.
+                <br>
+                Press the round black button at the bottom of the page to return to the home page!
+            </div>
+        </div>
+    </div>
+    <script>
+        var modal = document.getElementById("intro");
+        var span = document.getElementsByClassName("close")[0];
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <footer>
+        Yuvraj Lakhotia. Riley v. California. 2022-2023
+    </footer>
+</body>
+<script src="assets/lib/script.js"></script>
+
+</html>

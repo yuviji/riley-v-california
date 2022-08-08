@@ -1,0 +1,46 @@
+#screen {
+    background-color: lightcoral;
+}
+
+.container h1 {
+    font-family: 'Justice League';
+    font-size: 4em;
+    padding-bottom: 2%;
+    color: darkslateblue;
+}
+
+.container h2 {
+    font-family: 'Vogue';
+    font-size: 2em;
+    padding-bottom: 2%;
+    color: midnightblue
+}
+
+.container li {
+    font-family: 'Louis George Cafe';
+    text-align: left;
+    line-height: 1.6em;
+    color: rgb(104, 4, 54);
+}
+
+.container>ol>li,
+.container>ol>li::marker {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.container>ol>li>ul>li,
+.container>ol>li>ul>li::marker {
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+.container>ol>li>ul>li>ul>li,
+.container>ol>li>ul>li>ul>li::marker {
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+figcaption {
+    font-family: 'Louis George Cafe';
+}

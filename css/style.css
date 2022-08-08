@@ -1,0 +1,368 @@
+@font-face {
+    font-family: "SF Pro Regular";
+    src: url('../assets/fonts/SFProDisplay.otf');
+}
+
+@font-face {
+    font-family: "Special Elite";
+    src: url('../assets/fonts/SpecialElite.ttf');
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url('../assets/fonts/ProductSans.ttf');
+}
+
+@font-face {
+    font-family: "Cormorant SC";
+    src: url('../assets/fonts/CormorantSC.ttf');
+}
+
+@font-face {
+    font-family: "Guardian Sans";
+    src: url('../assets/fonts/GuardianSans.otf');
+}
+
+@font-face {
+    font-family: "Century Schoolbook";
+    src: url('../assets/fonts/CenturySchoolbook.ttf');
+}
+
+@font-face {
+    font-family: "Bookman Old Style";
+    src: url('../assets/fonts/BookmanOldStyle.ttf');
+}
+
+@font-face {
+    font-family: "We The People";
+    src: url('../assets/fonts/WeThePeople.ttf');
+}
+
+@font-face {
+    font-family: "Citadel Script";
+    src: url('../assets/fonts/CitadelScript.otf');
+}
+
+@font-face {
+    font-family: "Daggersquare";
+    src: url('../assets/fonts/Daggersquare.otf');
+}
+
+@font-face {
+    font-family: "Unica One";
+    src: url('../assets/fonts/UnicaOne.ttf');
+}
+
+@font-face {
+    font-family: "Koulen";
+    src: url('../assets/fonts/Koulen.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../assets/fonts/Roboto.ttf');
+}
+
+@font-face {
+    font-family: "Couture";
+    src: url('../assets/fonts/Couture.otf');
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url('../assets/fonts/Coolvetica.otf');
+}
+
+@font-face {
+    font-family: "Typo Draft";
+    src: url('../assets/fonts/TypoDraft.otf');
+}
+
+@font-face {
+    font-family: "Justice League";
+    src: url('../assets/fonts/JusticeLeague.ttf');
+}
+
+@font-face {
+    font-family: "Louis George Cafe";
+    src: url('../assets/fonts/LouisGeorgeCafe.ttf');
+}
+
+@font-face {
+    font-family: "Vogue";
+    src: url('../assets/fonts/Vogue.ttf');
+}
+
+@font-face {
+    font-family: "Varsity";
+    src: url('../assets/fonts/Varsity.ttf');
+}
+
+:root {
+    --cream: #f5eae9;
+    --gray: #3c3939;
+    --black: #000000;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--cream);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../assets/img/background/scotus.jpg');
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+    color: white;
+}
+
+footer {
+    padding: 30px;
+    margin-top: 40px;
+    color: whitesmoke;
+    background-color: #3c3939;
+    text-align: center;
+    font-family: 'SF Pro Regular';
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: 'Cormorant SC';
+}
+
+h2 {
+    font-family: 'Special Elite';
+}
+
+h4 {
+    font-family: 'SF Pro Regular';
+}
+
+strong {
+    font-weight: bold;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+#phone {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    border-radius: 110px;
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+#phone #screen {
+    width: 87%;
+    height: 83%;
+    margin: 0 auto;
+}
+
+#phone #top {
+    width: 100%;
+    height: 10%;
+}
+
+#phone #top #first {
+    width: 100%;
+    height: 20%;
+    margin: auto;
+}
+
+#phone #top #second {
+    display: flex;
+    width: 33%;
+    height: 20%;
+    margin: auto;
+}
+
+#phone #top #first #selfie {
+    height: 75%;
+    width: 3%;
+    border-radius: 100%;
+    background-color: var(--black);
+    margin: auto;
+}
+
+#phone #top #second #sensor {
+    width: 12%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: var(--black);
+}
+
+#phone #top #second #speaker {
+    width: 60%;
+    height: 50%;
+    margin: auto auto auto 7%;
+    border-radius: 20px;
+    background-color: var(--black);
+}
+
+#phone #bottom {
+    width: 100%;
+    height: 10%;
+}
+
+#phone #bottom #button {
+    border-radius: 100%;
+    width: 20%;
+    height: 100%;
+    background-color: var(--black);
+    margin: 2% auto;
+}
+
+#phone #bottom #button:hover {
+    background-color: var(--cream);
+}
+
+#screen {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#status {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#time {
+    font-family: 'SF Pro Regular';
+    color: white;
+}
+
+.page #time {
+    color: black;
+}
+
+#screen.off {
+    background-color: var(--black);
+    background-image: none;
+}
+
+#screen.off #status {
+    display: none;
+}
+
+#screen.off #time {
+    display: none;
+}
+
+#screen.lock {
+    background-image: url('../assets/img/background/lock.png');
+}
+
+#screen.lock #status {
+    padding-left: 65%;
+}
+
+#screen.lock #time {
+    height: 10%;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 18%;
+    font-size: 100%;
+}
+
+#screen.home {
+    background-image: url('../assets/img/background/home.jpg');
+}
+
+#screen.home #status {
+    padding-left: 50%;
+}
+
+#screen.home #time {
+    display: inline-block;
+    vertical-align: middle;
+    width: 17%;
+}
+
+#screen.page #status {
+    padding-left: 50%;
+}
+
+#screen.page #time {
+    display: inline-block;
+    vertical-align: middle;
+    width: 17%;
+    padding-left: 0;
+}
+
+.app {
+    display: inline-block;
+    border-radius: 30%;
+    width: 15%;
+    height: 8%;
+    padding: 4% 4% 0 4%;
+    text-align: center;
+}
+
+.app .icon {
+    border-radius: 30%;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.app .name {
+    font-family: 'SF Pro Regular';
+    color: white;
+}
+
+.quicktouch {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 35px;
+    height: 10%;
+    margin: 3%;
+    padding-bottom: 4%;
+    position: absolute;
+    width: 94%;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+.quicktouch .app {
+    display: inline-block;
+    border-radius: 30%;
+    padding: 4%;
+    width: 16.5%;
+    height: 81.5%;
+}
+
+.container {
+    margin: 3%;
+    padding: 3%;
+}
+
+.container.main {
+    overflow-y: auto;
+    height: 90%;
+}
+
+.container .round-box {
+    border-radius: 30px;
+}
+
+.container img {
+    width: 90%;
+    margin: 1%;
+}

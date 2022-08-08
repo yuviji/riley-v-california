@@ -1,0 +1,56 @@
+#screen {
+    background-color: darkseagreen;
+}
+
+.container h1 {
+    font-family: 'Daggersquare';
+    font-size: 4em;
+    padding-bottom: 2%;
+    color: var(--gray);
+}
+
+.container h2 {
+    font-family: 'Couture';
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+
+.container h3 {
+    font-family: 'Koulen';
+    font-size: 1.75em;
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+
+.container h4 {
+    font-family: 'Unica One';
+    font-size: 1.5em;
+    padding-bottom: 2%;
+}
+
+.container p {
+    font-family: 'Roboto';
+    font-size: 1.15em;
+    font-weight: lighter;
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+figcaption {
+    font-family: 'Roboto';
+}
+
+.container.box {
+    background-color: var(--gray);
+    color: var(--cream);
+    border: solid var(--cream);
+}
+
+.button {
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: var(--cream);
+    color: var(--gray);
+}

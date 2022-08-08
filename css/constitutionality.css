@@ -1,0 +1,41 @@
+#screen {
+    background-color: wheat;
+}
+
+.container h1 {
+    font-family: 'We The People';
+    font-size: 4em;
+    padding-bottom: 2%;
+    color: black;
+}
+
+.container h2 {
+    font-family: 'Century Schoolbook';
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+
+.container h3 {
+    font-family: 'Citadel Script';
+    font-weight: 500;
+    font-size: 1.9em;
+    padding-bottom: 2%;
+}
+
+.container h4 {
+    font-family: 'Bookman Old Style';
+    font-size: 1.3em;
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.container p {
+    font-family: 'Bookman Old Style';
+    font-size: 1.25em;
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+figcaption {
+    font-family: 'Bookman Old Style';
+}

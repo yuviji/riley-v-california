@@ -1,0 +1,35 @@
+#screen {
+    background-color: powderblue;
+}
+
+.container h1 {
+    font-family: 'Varsity';
+    font-size: 4em;
+    padding-bottom: 2%;
+    color: royalblue;
+}
+
+.container h2 {
+    font-family: 'Product Sans';
+    font-size: 2em;
+    padding-bottom: 2%;
+    color: steelblue;
+}
+
+.container li {
+    font-family: 'Trebuchet MS';
+    font-size: 1.25em;
+    text-align: left;
+    padding-bottom: 2%;
+    color: powderblue;
+}
+
+figcaption {
+    font-family: 'Trebuchet MS';
+    color: powderblue;
+}
+
+.container.box {
+    border: solid thick steelblue;
+    background-color: rgb(37, 66, 145);
+}

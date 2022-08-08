@@ -1,0 +1,30 @@
+#screen {
+    background-color: thistle;
+}
+
+.container h1 {
+    font-family: 'Typo Draft';
+    font-size: 4em;
+    padding-bottom: 2%;
+    color: rgb(56, 7, 50);
+}
+
+.container h3 {
+    font-family: 'Coolvetica';
+    font-size: 1.75em;
+    letter-spacing: 0.1em;
+    padding-bottom: 2%;
+    color: rgb(39, 7, 82);
+}
+
+.container p {
+    font-family: 'Tahoma';
+    font-size: 1.25em;
+    text-align: left;
+    padding-bottom: 2%;
+    color: thistle;
+}
+
+.container .round-box {
+    background-color: rgb(39, 7, 82);
+}
