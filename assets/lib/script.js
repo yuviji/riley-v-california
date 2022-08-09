@@ -7,10 +7,9 @@ function resize() {
 }
 
 function timeSize() {
-    const val = (window.location.toString().includes('index')) ? 0.22 : 0.5;
+    const val = (window.location.toString().includes('index') || !window.location.toString().includes('html')) ? 0.23 : 0.5;
     jQuery("#time").fitText(val);
 }
-
 
 function updateTime() {
     const date = new Date();
