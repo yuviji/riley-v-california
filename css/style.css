@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "SF Pro Regular";
+    font-family: "SF Pro";
     src: url('../assets/fonts/SFProDisplay.otf');
 }
 
@@ -129,7 +129,7 @@ footer {
     color: whitesmoke;
     background-color: #3c3939;
     text-align: center;
-    font-family: 'SF Pro Regular';
+    font-family: 'SF Pro';
     font-size: 1.2em;
 }
 
@@ -142,7 +142,7 @@ h2 {
 }
 
 h4 {
-    font-family: 'SF Pro Regular';
+    font-family: 'SF Pro';
 }
 
 strong {
@@ -244,7 +244,7 @@ figcaption {
 }
 
 #time {
-    font-family: 'SF Pro Regular';
+    font-family: 'SF Pro';
     color: white;
 }
 
@@ -324,7 +324,7 @@ figcaption {
 }
 
 .app .name {
-    font-family: 'SF Pro Regular';
+    font-family: 'SF Pro';
     color: white;
 }
 
@@ -365,4 +365,31 @@ figcaption {
 .container img {
     width: 90%;
     margin: 1%;
+}
+
+#arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 10%;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+#arrow-container {
+    background-color: white;
+    display: block;
+    width: 25%;
+    height: 3%;
+    margin: 8% auto 0 auto;
+    border: solid black;
+    border-radius: 30px;
+    font-family: 'SF Pro';
+}
+
+#arrow-container:hover {
+    background-color: black;
+    color: white;
+    border: solid white;
 }
